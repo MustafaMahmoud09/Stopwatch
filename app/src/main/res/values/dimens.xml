@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headerH">200dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="marginBottomHeader">32dp</dimen>
+    <dimen name="textHeader">14sp</dimen>
+    <dimen name="marginStartHeader">18dp</dimen>
+    <dimen name="sizeImage">100dp</dimen>
+    <dimen name="sizeImageFirst">150dp</dimen>
+    <dimen name="marginProgress">8dp</dimen>
+    <dimen name="timeTextSize">26sp</dimen>
+    <dimen name="progressSize">270dp</dimen>
+    <dimen name="marginTopProgressTimer">8dp</dimen>
+    <dimen name="marginRecycler">16dp</dimen>
+    <dimen name="marginTextNameItem">16sp</dimen>
+    <dimen name="progressItemSize">80dp</dimen>
+    <dimen name="marginBottomNavImage">8dp</dimen>
+    <dimen name="textStopSize">28sp</dimen>
+    <dimen name="marginBtnStop">16dp</dimen>
+    <dimen name="widthBtnStop">85dp</dimen>
+    <dimen name="heightBtnStop">40dp</dimen>
+    <dimen name="marginSelectDialog">2dp</dimen>
+    <dimen name="marginDialogLayout">4dp</dimen>
+    <dimen name="marginTopButtonDialog">24dp</dimen>
+    <dimen name="textTimeStartSize">16sp</dimen>
+    <dimen name="heightDialogFinish">250dp</dimen>
+    <dimen name="marginBtnCancelDialogFinish">4dp</dimen>
+    <dimen name="marginTextFinishDialog">52dp</dimen>
+    <dimen name="textSizeRecyclerStop">22sp</dimen>
+</resources>

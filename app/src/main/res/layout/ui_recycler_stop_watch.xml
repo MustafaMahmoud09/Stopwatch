@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/marginBtnCancelDialogFinish"
+    android:paddingEnd="@dimen/marginBtnCancelDialogFinish"
+    android:background="@drawable/shape_two"
+    android:layout_marginBottom="@dimen/marginBtnCancelDialogFinish"
+    >
+
+    <TextView
+        android:id="@+id/textNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginBottomNavImage"
+        android:layout_marginBottom="@dimen/marginBottomNavImage"
+        android:text=""
+        android:background="@drawable/shape_two"
+        android:paddingStart="@dimen/marginBottomNavImage"
+        android:paddingEnd="@dimen/marginBottomNavImage"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textAllTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="@drawable/shape_two"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingStart="@dimen/marginBottomNavImage"
+        android:paddingEnd="@dimen/marginBottomNavImage"
+        app:layout_constraintBottom_toBottomOf="@+id/textNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textNumber" />
+
+    <TextView
+        android:id="@+id/textCountTimeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:background="@drawable/shape_two"
+        android:paddingStart="@dimen/marginBottomNavImage"
+        android:paddingEnd="@dimen/marginBottomNavImage"
+        app:layout_constraintBottom_toBottomOf="@+id/textAllTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textAllTime" />
+</androidx.constraintlayout.widget.ConstraintLayout>

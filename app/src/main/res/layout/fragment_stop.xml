@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StopFragment"
+    android:background="@color/white"
+    >
+
+    <ProgressBar
+        android:id="@+id/progressTimer"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="@dimen/progressSize"
+        android:layout_height="@dimen/progressSize"
+        android:layout_marginTop="-16dp"
+        android:indeterminateOnly="false"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_stop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_00_00_000"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textStopSize"
+        android:textStyle="bold|normal"
+        app:layout_constraintBottom_toBottomOf="@+id/progressTimer"
+        app:layout_constraintEnd_toEndOf="@+id/progressTimer"
+        app:layout_constraintStart_toStartOf="@+id/progressTimer"
+        app:layout_constraintTop_toTopOf="@+id/progressTimer" />
+
+    <TextView
+        android:id="@+id/textCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-16dp"
+        android:text="@string/_00_00_000"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textTimeStartSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressTimer" />
+
+    <ImageButton
+        android:id="@+id/btnStartAndStopStopWatch"
+        android:layout_width="@dimen/widthBtnStop"
+        android:layout_height="@dimen/heightBtnStop"
+        android:layout_marginBottom="@dimen/marginBtnStop"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/themeStopWatch"
+        android:src="@drawable/ic_baseline_crop_square_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/progressTimer" />
+
+    <ImageButton
+        android:id="@+id/btnStartCounter"
+        android:layout_width="@dimen/widthBtnStop"
+        android:layout_height="@dimen/heightBtnStop"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/themeStopWatch"
+        android:src="@drawable/ic_baseline_emoji_flags_24"
+        app:layout_constraintBottom_toBottomOf="@+id/btnStartAndStopStopWatch"
+        app:layout_constraintEnd_toStartOf="@+id/btnResetStopWatch"
+        app:layout_constraintStart_toEndOf="@+id/btnStartAndStopStopWatch"
+        app:layout_constraintTop_toTopOf="@+id/btnStartAndStopStopWatch" />
+
+    <ImageButton
+        android:id="@+id/btnResetStopWatch"
+        android:layout_width="@dimen/widthBtnStop"
+        android:layout_height="@dimen/heightBtnStop"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/themeStopWatch"
+        android:src="@drawable/ic_baseline_refresh_24"
+        app:layout_constraintBottom_toBottomOf="@+id/btnStartAndStopStopWatch"
+        app:layout_constraintEnd_toEndOf="@+id/progressTimer"
+        app:layout_constraintTop_toTopOf="@+id/btnStartAndStopStopWatch" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerStopWatch"
+        android:layout_width="0dp"
+        android:background="@drawable/shape_two"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="@dimen/marginBtnCancelDialogFinish"
+        android:paddingEnd="@dimen/marginBtnCancelDialogFinish"
+        android:paddingTop="@dimen/marginBtnCancelDialogFinish"
+        app:layout_constraintBottom_toTopOf="@+id/btnResetStopWatch"
+        app:layout_constraintEnd_toEndOf="@+id/progressTimer"
+        app:layout_constraintStart_toStartOf="@+id/progressTimer"
+        app:layout_constraintTop_toBottomOf="@+id/progressTimer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

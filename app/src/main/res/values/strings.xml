@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name" translatable="false">Stop watch</string>
+    <string name="clock" translatable="false">Clock</string>
+    <string name="stopwatch" translatable="false">Stopwatch</string>
+    <string name="timer" translatable="false">Timer</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="open" translatable="false">open</string>
+    <string name="close" translatable="false" />
+    <string name="lomu_stop_watch" translatable="false">Lomu stop watch 15.1.5</string>
+    <string name="Start" translatable="false">Start</string>
+    <string name="stop" translatable="false">Stop</string>
+    <string name="minute" translatable="false">Minute</string>
+    <string name="day" translatable="false">Day</string>
+    <string name="second" translatable="false">Second</string>
+    <string name="add" translatable="false">Add</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="hour" translatable="false">Hour</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="time_s_up" translatable="false">Time\'s up</string>
+    <string name="_00_00_000" translatable="false">00:00.000</string>
+    <string name="Paris" translatable="false">Paris</string>
+    <string name="Berlin" translatable="false">Berlin</string>
+    <string name="NewYork" translatable="false">NewYork</string>
+    <string name="Madrid" translatable="false">Madrid</string>
+    <string name="Roma" translatable="false">Roma</string>
+    <string name="Tokyo" translatable="false">Tokyo</string>
+    <string name="Algiers" translatable="false">Algiers</string>
+    <string name="Cairo" translatable="false">Cairo</string>
+    <string name="Riyadh" translatable="false">Riyadh</string>
+    <string name="Casablanca" translatable="false">Casablanca</string>
+    <string name="London" translatable="false">London</string>
+    <string name="Mauritius" translatable="false">Mauritius</string>
+    <string name="Tripoli" translatable="false">Tripoli</string>
+    <string name="Khartoum" translatable="false">Khartoum</string>
+    <string name="Stopwatch_is_not_running">Stopwatch is not running</string>
+</resources>
