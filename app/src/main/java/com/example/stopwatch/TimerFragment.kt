@@ -120,21 +120,21 @@ class TimerFragment : Fragment() {
         view.inputSecond.setAdapter(
             ArrayAdapter(
                 view.context,
-                android.R.layout.simple_list_item_1,
+                R.layout.simple_adapter,
                 listSecond
             )
         )
         view.inputHour.setAdapter(
             ArrayAdapter(
                 view.context,
-                android.R.layout.simple_list_item_1,
+                R.layout.simple_adapter,
                 listHour
             )
         )
         view.inputMinute.setAdapter(
             ArrayAdapter(
                 view.context,
-                android.R.layout.simple_list_item_1,
+                R.layout.simple_adapter,
                 listMinute
             )
         )

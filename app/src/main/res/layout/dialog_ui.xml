@@ -1,41 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@color/purple_700"
+    >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="@dimen/widthBtnStop"
+        android:layout_height="@dimen/heightBtnStop"
+        android:layout_marginStart="@dimen/marginTopProgressTimer"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginTopProgressTimer"
+        android:layout_weight="1"
+        android:background="@drawable/shape"
+        android:text="@string/add"
+        android:textColor="@color/orangeStyle"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/btnColor"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        android:layout_marginTop="@dimen/marginTopButtonDialog"
-        android:layout_marginBottom="@dimen/marginSelectDialog"
-        >
-        <Button
-            android:id="@+id/btnAdd"
-            android:layout_width="@dimen/zero"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="@string/add"
-            android:background="@drawable/shape_btn_dialog"
-            android:textAllCaps="false"
-            android:layout_marginEnd="@dimen/marginSelectDialog"
-            android:layout_marginStart="@dimen/marginSelectDialog"
-            />
-        <Button
-            android:id="@+id/btnCancel"
-            android:layout_width="@dimen/zero"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="@string/cancel"
-            android:background="@drawable/shape_btn_dialog"
-            android:textAllCaps="false"
-            android:layout_marginStart="@dimen/marginSelectDialog"
-            android:layout_marginEnd="@dimen/marginSelectDialog"
-            />
-    </LinearLayout>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="@dimen/widthBtnStop"
+        android:layout_height="@dimen/heightBtnStop"
+        android:layout_weight="1"
+        android:background="@drawable/shape"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/orangeStyle"
+        android:layout_marginEnd="@dimen/marginTopProgressTimer"
+        app:backgroundTint="@color/btnColor"
+        app:layout_constraintBottom_toBottomOf="@+id/btnAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnAdd" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -53,15 +56,18 @@
             android:layout_marginEnd="@dimen/marginSelectDialog"
             android:layout_weight="1"
             android:hint="@string/hour"
+            android:textColorHint="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <AutoCompleteTextView
+                android:textColor="@color/white"
                 android:id="@+id/inputHour"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="none"
                 android:text="@string/zero"
+                android:backgroundTint="@color/purple_700"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -71,15 +77,20 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="@string/minute"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white"
+            app:background="@color/purple_700"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <AutoCompleteTextView
                 android:id="@+id/inputMinute"
-                android:text="@string/zero"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="none" />
+                android:backgroundTint="@color/purple_700"
+                android:inputType="none"
+                android:text="@string/zero"
+                android:textColor="@color/white" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -90,6 +101,8 @@
             android:layout_marginEnd="@dimen/marginSelectDialog"
             android:layout_weight="1"
             android:hint="@string/second"
+            app:counterTextColor="@color/white"
+            android:textColorHint="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -98,7 +111,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="none"
+                android:backgroundTint="@color/purple_700"
+                android:textColor="@color/white"
                 android:text="@string/zero"
+
                 />
 
         </com.google.android.material.textfield.TextInputLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StopFragment"
-    android:background="@color/white"
+    android:background="@color/purple_700"
     >
 
 
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/marginTopProgressTimer"
         android:clickable="true"
-        app:backgroundTint="@color/blue_light"
+        android:backgroundTint="@color/btnColor"
         app:layout_constraintEnd_toEndOf="@+id/textStartStopWatch"
         app:layout_constraintStart_toStartOf="@+id/textStartStopWatch"
         app:layout_constraintTop_toBottomOf="@+id/textStartStopWatch" />
@@ -38,7 +38,7 @@
         android:progressDrawable="@drawable/progress_stop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:progress="100"
+        android:progress="70"
         android:indeterminateOnly="false"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="@dimen/textStopSize"
         android:textStyle="bold|normal"
         app:layout_constraintBottom_toBottomOf="@+id/progressStop"
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="-16dp"
         android:text=""
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="@dimen/textTimeStartSize"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +75,7 @@
         android:layout_height="@dimen/heightBtnStop"
         android:layout_marginBottom="@dimen/marginBtnStop"
         android:background="@drawable/shape"
-        android:backgroundTint="@color/blue_light"
+        android:backgroundTint="@color/btnColor"
         android:src="@drawable/ic_baseline_crop_square_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/progressStop" />
@@ -85,7 +85,7 @@
         android:layout_width="@dimen/widthBtnStop"
         android:layout_height="@dimen/heightBtnStop"
         android:background="@drawable/shape"
-        android:backgroundTint="@color/blue_light"
+        android:backgroundTint="@color/btnColor"
         android:src="@drawable/ic_baseline_refresh_24"
         app:layout_constraintBottom_toBottomOf="@+id/btnStartAndStop"
         app:layout_constraintEnd_toEndOf="@+id/progressStop"

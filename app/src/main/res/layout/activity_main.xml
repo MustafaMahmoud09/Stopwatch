@@ -33,10 +33,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
-        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorColor="@color/orangeStyle"
         app:tabMode="fixed"
         app:tabTextAppearance="@style/MyCustomTextAppearance"
-        app:tabSelectedTextColor="@color/white"
+        app:tabSelectedTextColor="@color/orangeStyle"
         app:tabTextColor="@color/white"
         >
     </com.google.android.material.tabs.TabLayout>
