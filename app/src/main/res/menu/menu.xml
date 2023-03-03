@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/itemClock"
+        android:title="@string/clock"
+        android:icon="@drawable/ic_baseline_access_time_24"
+        />
+    <item
+        android:id="@+id/itemStopwatch"
+        android:title="@string/stopwatch"
+        android:icon="@drawable/ic_baseline_timer_24"
+        />
+    <item
+        android:id="@+id/itemTimer"
+        android:title="@string/timer"
+        android:icon="@drawable/ic_baseline_access_alarms_24"
+        />
 </menu>

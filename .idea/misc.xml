@@ -32,6 +32,8 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/StopWatch/app/src/main/res/menu/menu.xml" value="0.2" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/btn_cancel.xml" value="0.2265" />
+        <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_baseline_access_alarms_24.xml" value="0.156" />
+        <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.156" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_baseline_cancel_presentation_24.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.2265" />
@@ -39,6 +41,7 @@
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_baseline_emoji_flags_24.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_baseline_pause_24.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.2265" />
+        <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_baseline_timer_24.xml" value="0.156" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/progress.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/progress_stop.xml" value="0.2265" />
@@ -48,13 +51,13 @@
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/shape_btn_dialog.xml" value="0.228" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/drawable/shape_two.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/activity_first.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/dialog_ui.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/dialog_ui.xml" value="0.45440494590417313" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/finish_dialog.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/fragment_clock.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/fragment_stop.xml" value="0.264" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/fragment_timer.xml" value="0.264" />
-        <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/header.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/header.xml" value="0.136" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/item_ui.xml" value="0.264" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/simple_adapter.xml" value="0.23143115942028986" />
         <entry key="..\:/Users/DELL/Desktop/ProjectComplete/StopWatch/app/src/main/res/layout/ui_recycler_stop_watch.xml" value="0.2" />

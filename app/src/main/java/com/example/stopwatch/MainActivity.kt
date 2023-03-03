@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.system.Os.close
 import android.view.Gravity
+import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_main.*
@@ -15,7 +16,29 @@ class MainActivity : AppCompatActivity() {
         buildFragmentAndSetInViewPagerAndConnectToTabs()
         supportToolbarAsActionBar()
         createNavInTool()
+        nav.setNavigationItemSelectedListener {
+            codeSelectItemNav(it)
+            true
+        }
+    }
 
+    private fun codeSelectItemNav(it: MenuItem) {
+        when (it.itemId) {
+            R.id.itemClock -> {
+                createFragment(0)
+            }
+            R.id.itemStopwatch -> {
+                createFragment(1)
+            }
+            R.id.itemTimer -> {
+                createFragment(2)
+            }
+        }
+    }
+
+    private fun createFragment(num:Int) {
+        viewPagerFragment.currentItem = num
+        draw.closeDrawer(Gravity.LEFT)
     }
 
     private fun supportToolbarAsActionBar() {
