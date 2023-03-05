@@ -2,10 +2,9 @@ package com.example.stopwatch
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.system.Os.close
-import android.view.Gravity
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.core.view.GravityCompat
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -38,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun createFragment(num:Int) {
         viewPagerFragment.currentItem = num
-        draw.closeDrawer(Gravity.LEFT)
+        draw.closeDrawer(GravityCompat.START)
     }
 
     private fun supportToolbarAsActionBar() {
@@ -53,8 +52,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if(draw.isDrawerOpen(Gravity.LEFT)){
-            draw.closeDrawer(Gravity.LEFT)
+        if(draw.isDrawerOpen(GravityCompat.START)){
+            draw.closeDrawer(GravityCompat.START)
         }else {
             super.onBackPressed()
         }
